@@ -3,5 +3,12 @@
   "version": "1.2.0",
   "description": "🍱 Minimalist, elegant and hackable startpage inspired by the Bento box!",
   "author": "Miguel Ávila",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.33.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.6.1",
+    "eslint-plugin-promise": "^6.1.1"
+  }
 }
