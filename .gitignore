@@ -12,3 +12,5 @@ Thumbs.db
 archive
 dist
 node_modules
+
+get-playlists.js
