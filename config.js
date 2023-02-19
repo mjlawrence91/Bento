@@ -38,9 +38,11 @@ const CONFIG = {
   weatherUnit: 'C', // 'F', 'C'
   language: 'en', // More languages in https://openweathermap.org/current#multi
 
-  trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-  defaultLatitude: '37.775',
-  defaultLongitude: '-122.419',
+  trackLocation: false, // If false or an error occurs, the app will use the lat/lon below
+  defaultLatitude: '53.0771881',
+  defaultLongitude: '-2.2196131',
+
+  // 53.0771881,-2.2196131
 
   // Autochange
   autoChangeTheme: true,
@@ -63,7 +65,7 @@ const CONFIG = {
   firstButtonsContainer: [
     {
       id: '1',
-      name: 'Github',
+      name: 'GitHub',
       icon: 'github',
       link: 'https://github.com/'
     },
@@ -71,12 +73,12 @@ const CONFIG = {
       id: '2',
       name: 'Mail',
       icon: 'mail',
-      link: 'https://mail.protonmail.com/'
+      link: 'https://gmail.com/'
     },
     {
       id: '3',
       name: 'Todoist',
-      icon: 'trello',
+      icon: 'list-checks',
       link: 'https://todoist.com'
     },
     {
@@ -93,9 +95,9 @@ const CONFIG = {
     },
     {
       id: '6',
-      name: 'Odysee',
+      name: 'YouTube',
       icon: 'youtube',
-      link: 'https://odysee.com/'
+      link: 'https://youtube.com/'
     }
   ],
 
@@ -148,21 +150,10 @@ const CONFIG = {
       icon: 'music',
       id: '1',
       links: [
+        ...window.shufflePlaylists(3),
         {
-          name: 'Inspirational',
-          link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
-        },
-        {
-          name: 'Classic',
-          link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
-        },
-        {
-          name: 'Oldies',
-          link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
-        },
-        {
-          name: 'Rock',
-          link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
+          name: 'Cardiacs',
+          link: 'https://music.youtube.com/channel/UC9HxoIUTwAjN0c_CXWQJLLg'
         }
       ]
     },
